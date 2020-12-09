@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.b7d033c5.chunk.css",
-    "main.js": "/static/js/main.8b714162.chunk.js",
-    "main.js.map": "/static/js/main.8b714162.chunk.js.map",
+    "main.css": "/static/css/main.77f8e447.chunk.css",
+    "main.js": "/static/js/main.73f2db4c.chunk.js",
+    "main.js.map": "/static/js/main.73f2db4c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2c3d1ad8.js",
     "runtime-main.js.map": "/static/js/runtime-main.2c3d1ad8.js.map",
     "static/css/2.d7f36125.chunk.css": "/static/css/2.d7f36125.chunk.css",
@@ -10,9 +10,9 @@
     "static/js/2.67eda979.chunk.js.map": "/static/js/2.67eda979.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.d7f36125.chunk.css.map": "/static/css/2.d7f36125.chunk.css.map",
-    "static/css/main.b7d033c5.chunk.css.map": "/static/css/main.b7d033c5.chunk.css.map",
+    "static/css/main.77f8e447.chunk.css.map": "/static/css/main.77f8e447.chunk.css.map",
     "static/js/2.67eda979.chunk.js.LICENSE.txt": "/static/js/2.67eda979.chunk.js.LICENSE.txt",
-    "static/media/Technology-Content.css": "/static/media/web-context.6e340b88.png",
+    "static/media/Technology-Content.css": "/static/media/web-context.56ed8210.webp",
     "static/media/android-fundamental-icon.f4d4c56e.png": "/static/media/android-fundamental-icon.f4d4c56e.png",
     "static/media/android-technology.9f26cda5.png": "/static/media/android-technology.9f26cda5.png",
     "static/media/data-visualization-icon.112e9fef.png": "/static/media/data-visualization-icon.112e9fef.png",
@@ -21,7 +21,7 @@
     "static/media/pwa-icon.df7c6b89.png": "/static/media/pwa-icon.df7c6b89.png",
     "static/media/python-icon.6eb835db.png": "/static/media/python-icon.6eb835db.png",
     "static/media/react-course-icon.36a20d02.svg": "/static/media/react-course-icon.36a20d02.svg",
-    "static/media/river-image.7f329a5c.png": "/static/media/river-image.7f329a5c.png",
+    "static/media/river-image.45aa99c6.webp": "/static/media/river-image.45aa99c6.webp",
     "static/media/solid-icon.54640343.png": "/static/media/solid-icon.54640343.png",
     "static/media/sql-course-icon.4a27b845.svg": "/static/media/sql-course-icon.4a27b845.svg",
     "static/media/web-technology.13d00d93.png": "/static/media/web-technology.13d00d93.png"
@@ -30,7 +30,7 @@
     "static/js/runtime-main.2c3d1ad8.js",
     "static/css/2.d7f36125.chunk.css",
     "static/js/2.67eda979.chunk.js",
-    "static/css/main.b7d033c5.chunk.css",
-    "static/js/main.8b714162.chunk.js"
+    "static/css/main.77f8e447.chunk.css",
+    "static/js/main.73f2db4c.chunk.js"
   ]
 }

@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.77f8e447.chunk.css",
-    "main.js": "/static/js/main.ba423ec3.chunk.js",
-    "main.js.map": "/static/js/main.ba423ec3.chunk.js.map",
+    "main.css": "/static/css/main.afad260d.chunk.css",
+    "main.js": "/static/js/main.51004e18.chunk.js",
+    "main.js.map": "/static/js/main.51004e18.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2c3d1ad8.js",
     "runtime-main.js.map": "/static/js/runtime-main.2c3d1ad8.js.map",
     "static/css/2.d7f36125.chunk.css": "/static/css/2.d7f36125.chunk.css",
-    "static/js/2.5eeb5032.chunk.js": "/static/js/2.5eeb5032.chunk.js",
-    "static/js/2.5eeb5032.chunk.js.map": "/static/js/2.5eeb5032.chunk.js.map",
+    "static/js/2.847309f3.chunk.js": "/static/js/2.847309f3.chunk.js",
+    "static/js/2.847309f3.chunk.js.map": "/static/js/2.847309f3.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.d7f36125.chunk.css.map": "/static/css/2.d7f36125.chunk.css.map",
-    "static/css/main.77f8e447.chunk.css.map": "/static/css/main.77f8e447.chunk.css.map",
-    "static/js/2.5eeb5032.chunk.js.LICENSE.txt": "/static/js/2.5eeb5032.chunk.js.LICENSE.txt",
+    "static/css/main.afad260d.chunk.css.map": "/static/css/main.afad260d.chunk.css.map",
+    "static/js/2.847309f3.chunk.js.LICENSE.txt": "/static/js/2.847309f3.chunk.js.LICENSE.txt",
     "static/media/Technology-Content.css": "/static/media/web-context.56ed8210.webp",
     "static/media/android-fundamental-icon.f4d4c56e.png": "/static/media/android-fundamental-icon.f4d4c56e.png",
-    "static/media/android-technology.9f26cda5.png": "/static/media/android-technology.9f26cda5.png",
+    "static/media/android-technology.009ffa09.png": "/static/media/android-technology.009ffa09.png",
     "static/media/data-visualization-icon.112e9fef.png": "/static/media/data-visualization-icon.112e9fef.png",
-    "static/media/front-end-fundamentals-icon.8017035d.jpg": "/static/media/front-end-fundamentals-icon.8017035d.jpg",
+    "static/media/front-end-web-expert-icon.6d60763d.jpg": "/static/media/front-end-web-expert-icon.6d60763d.jpg",
+    "static/media/jetpack-pro-icon.54b67aec.png": "/static/media/jetpack-pro-icon.54b67aec.png",
     "static/media/machine-learning-development-icon.430e1d33.jpg": "/static/media/machine-learning-development-icon.430e1d33.jpg",
     "static/media/pwa-icon.df7c6b89.png": "/static/media/pwa-icon.df7c6b89.png",
     "static/media/python-icon.6eb835db.png": "/static/media/python-icon.6eb835db.png",
@@ -29,8 +30,8 @@
   "entrypoints": [
     "static/js/runtime-main.2c3d1ad8.js",
     "static/css/2.d7f36125.chunk.css",
-    "static/js/2.5eeb5032.chunk.js",
-    "static/css/main.77f8e447.chunk.css",
-    "static/js/main.ba423ec3.chunk.js"
+    "static/js/2.847309f3.chunk.js",
+    "static/css/main.afad260d.chunk.css",
+    "static/js/main.51004e18.chunk.js"
   ]
 }

@@ -1,37 +1,42 @@
 {
   "files": {
-    "main.css": "/static/css/main.ddd00c34.chunk.css",
-    "main.js": "/static/js/main.13ad34f6.chunk.js",
-    "main.js.map": "/static/js/main.13ad34f6.chunk.js.map",
+    "main.css": "/static/css/main.ea17b567.chunk.css",
+    "main.js": "/static/js/main.6a803fe5.chunk.js",
+    "main.js.map": "/static/js/main.6a803fe5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2c3d1ad8.js",
     "runtime-main.js.map": "/static/js/runtime-main.2c3d1ad8.js.map",
-    "static/js/2.6b58b87a.chunk.js": "/static/js/2.6b58b87a.chunk.js",
-    "static/js/2.6b58b87a.chunk.js.map": "/static/js/2.6b58b87a.chunk.js.map",
+    "static/js/2.1cac0f8a.chunk.js": "/static/js/2.1cac0f8a.chunk.js",
+    "static/js/2.1cac0f8a.chunk.js.map": "/static/js/2.1cac0f8a.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.ddd00c34.chunk.css.map": "/static/css/main.ddd00c34.chunk.css.map",
-    "static/js/2.6b58b87a.chunk.js.LICENSE.txt": "/static/js/2.6b58b87a.chunk.js.LICENSE.txt",
+    "static/css/main.ea17b567.chunk.css.map": "/static/css/main.ea17b567.chunk.css.map",
+    "static/js/2.1cac0f8a.chunk.js.LICENSE.txt": "/static/js/2.1cac0f8a.chunk.js.LICENSE.txt",
     "static/media/Footer-Background.438043ee.svg": "/static/media/Footer-Background.438043ee.svg",
     "static/media/Lang-Image.d5d5c017.png": "/static/media/Lang-Image.d5d5c017.png",
     "static/media/Laptop-Icon.98a33549.png": "/static/media/Laptop-Icon.98a33549.png",
     "static/media/android-fundamental-icon.f4d4c56e.png": "/static/media/android-fundamental-icon.f4d4c56e.png",
+    "static/media/corona-statistic.4ffed2f5.png": "/static/media/corona-statistic.4ffed2f5.png",
     "static/media/data-visualization-icon.112e9fef.png": "/static/media/data-visualization-icon.112e9fef.png",
     "static/media/developer-image.f404f983.jpg": "/static/media/developer-image.f404f983.jpg",
+    "static/media/digital-note.e1dc607c.png": "/static/media/digital-note.e1dc607c.png",
     "static/media/front-end-web-expert-icon.6d60763d.jpg": "/static/media/front-end-web-expert-icon.6d60763d.jpg",
     "static/media/jetpack-pro-icon.54b67aec.png": "/static/media/jetpack-pro-icon.54b67aec.png",
     "static/media/machine-learning-beginner-icon.ca23d383.jpg": "/static/media/machine-learning-beginner-icon.ca23d383.jpg",
     "static/media/machine-learning-development-icon.430e1d33.jpg": "/static/media/machine-learning-development-icon.430e1d33.jpg",
+    "static/media/mbas-jajan.d6760329.png": "/static/media/mbas-jajan.d6760329.png",
+    "static/media/mikomik.9e2357dc.png": "/static/media/mikomik.9e2357dc.png",
     "static/media/pwa-icon.df7c6b89.png": "/static/media/pwa-icon.df7c6b89.png",
     "static/media/react-course-icon.36a20d02.svg": "/static/media/react-course-icon.36a20d02.svg",
     "static/media/solid-icon.54640343.png": "/static/media/solid-icon.54640343.png",
     "static/media/sql-course-icon.4a27b845.svg": "/static/media/sql-course-icon.4a27b845.svg",
     "static/media/top-background-lans.482e175d.png": "/static/media/top-background-lans.482e175d.png",
     "static/media/top-background.428d0c23.png": "/static/media/top-background.428d0c23.png",
-    "static/media/undraw_creative_thinking.000e0cad.svg": "/static/media/undraw_creative_thinking.000e0cad.svg"
+    "static/media/undraw_creative_thinking.000e0cad.svg": "/static/media/undraw_creative_thinking.000e0cad.svg",
+    "static/media/zero_to_hero.7ede744f.png": "/static/media/zero_to_hero.7ede744f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.2c3d1ad8.js",
-    "static/js/2.6b58b87a.chunk.js",
-    "static/css/main.ddd00c34.chunk.css",
-    "static/js/main.13ad34f6.chunk.js"
+    "static/js/2.1cac0f8a.chunk.js",
+    "static/css/main.ea17b567.chunk.css",
+    "static/js/main.6a803fe5.chunk.js"
   ]
 }

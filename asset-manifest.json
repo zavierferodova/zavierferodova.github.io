@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.92547c19.chunk.css",
-    "main.js": "/static/js/main.4b3fa992.chunk.js",
-    "main.js.map": "/static/js/main.4b3fa992.chunk.js.map",
+    "main.js": "/static/js/main.2f61f3c9.chunk.js",
+    "main.js.map": "/static/js/main.2f61f3c9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2c3d1ad8.js",
     "runtime-main.js.map": "/static/js/runtime-main.2c3d1ad8.js.map",
     "static/js/2.1cac0f8a.chunk.js": "/static/js/2.1cac0f8a.chunk.js",
@@ -14,6 +14,7 @@
     "static/media/Lang-Image.d5d5c017.png": "/static/media/Lang-Image.d5d5c017.png",
     "static/media/Laptop-Icon.98a33549.png": "/static/media/Laptop-Icon.98a33549.png",
     "static/media/android-fundamental-icon.f4d4c56e.png": "/static/media/android-fundamental-icon.f4d4c56e.png",
+    "static/media/cinema-catalogue.059ca3fc.png": "/static/media/cinema-catalogue.059ca3fc.png",
     "static/media/corona-statistic.4ffed2f5.png": "/static/media/corona-statistic.4ffed2f5.png",
     "static/media/data-visualization-icon.112e9fef.png": "/static/media/data-visualization-icon.112e9fef.png",
     "static/media/developer-image.f404f983.jpg": "/static/media/developer-image.f404f983.jpg",
@@ -37,6 +38,6 @@
     "static/js/runtime-main.2c3d1ad8.js",
     "static/js/2.1cac0f8a.chunk.js",
     "static/css/main.92547c19.chunk.css",
-    "static/js/main.4b3fa992.chunk.js"
+    "static/js/main.2f61f3c9.chunk.js"
   ]
 }

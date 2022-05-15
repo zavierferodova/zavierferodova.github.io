@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.app {
+    background-color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar {    
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(40px);
+    padding: 1.5rem 2.5rem;
+    padding-bottom: 0.8rem;
+}
+
+.navbar .logo {
+    font-weight: bold;
+    color: #242D49;    
+}
+
+.navbar .logo .circle {
+    display: inline-block;
+    background-color: #97C3F6;
+    width: 0.45rem;
+    height: 0.45rem;
+    clip-path: circle();
+}
+
+.navbar .menu {
+    position: absolute;    
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    color: #0075FF;
+}
+
+.navbar .menu ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+/* .navbar .menu ul li:first-child a {
+    color: #0075FF;
+} */
+
+.navbar .menu ul a {
+    color: #242D49;
+    font-weight: 600;
+}
+
+.navbar .menu ul a:hover {
+    cursor: pointer;
+    color: #0075FF;
+}
+
+.navbar .menu ul a:focus {
+    color: #0075FF;
+}
+
+.navbar .btn_download_container {
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar .btn_download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.45rem;
+    background: linear-gradient(24.15deg, #0075FF 10.68%, rgba(0, 117, 255, 0.02) 118.24%);
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+    color: white;
+    font-weight: 600;
+}
+
+.navbar .btn_download_container .reflection {
+    z-index: -1;
+    transform: translateY(0.75rem);
+    position: absolute;
+    width: 6rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background: rgba(0, 117, 255, 0.71);
+    filter: blur(10px);
+}
+
+.top_content .left_text {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+}
+
+.top_content .left_text .bottom {
+    color: #4A4E5A;
+}
+
+.top_content .left_text .greeting {
+    color: #242D49;
+}
+
+.top_content .left_text .dev_name {
+    color: #0075FF;
+}
+
+.top_content .left_text .circle_blur_1 {
+    z-index: 1;
+    top: 5rem;
+    position: absolute;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    background: rgba(83, 161, 253, 0.31);
+    filter: blur(40px);
+}
+
+.top_content .left_text .circle_blur_2 {
+    z-index: 1;
+    bottom: 1.25rem;
+    right: 0;
+    position: absolute;
+    width: 6.5rem;
+    height: 6.5rem;
+    border-radius: 50%;
+    background: rgba(83, 161, 253, 0.31);
+    filter: blur(40px);
+}
+
+.top_content .btn_more_container {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.top_content .btn_more {
+    z-index: 2;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.45rem;
+    background: linear-gradient(24.15deg, #0075FF 10.68%, rgba(0, 117, 255, 0.02) 118.24%);
+    border-radius: 0.5rem;
+    padding: 0.5rem 1.15rem;
+    color: white;
+    font-weight: 600;
+}
+
+.top_content .btn_more_container .reflection {
+    transform: translateY(-1.75rem);
+    width: 4rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background: rgba(0, 117, 255, 0.71);
+    filter: blur(10px);
+}
+
+.top_content .hero_section img {
+    image-rendering: -moz-crisp-edges;         /* Firefox */
+    image-rendering:   -o-crisp-edges;         /* Opera */
+    image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor;  /* IE (non-standard property) */
+}
+
+.about_content .heading span:first-child {
+    color: #242D49;
+}
+
+.about_content .heading span:last-child {
+    color: #0075FF;
+}
+
+.about_content .short_desc {
+    color: #4A4E5A;
+}
+
+.about_content .books_img_container img {
+    image-rendering: -moz-crisp-edges;         /* Firefox */
+    image-rendering:   -o-crisp-edges;         /* Opera */
+    image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor;  /* IE (non-standard property) */
+}
+
+.skills_content .heading span:first-child {
+    color: #242D49;
+}
+
+.skills_content .heading span:last-child {
+    color: #0075FF;
+}
+
+.skills_content .short_text {
+    color: #4A4E5A;
+}
+
+.skills_content .skills_section .heading {
+    color: #242D49;
+}
+
+.skills_content .skills_section .skill_item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+}
+
+.skills_content .skills_section .skills_set .skill_item .icon {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #0075FF;
+    clip-path: circle();
+}
+
+.skills_content .skills_section .skills_set .skill_item .text {
+    margin-top: 0.8rem;
+    color: #4A4E5A;
+}
+
+.skills_content .experience_section .heading {
+    color: #242D49;
+}
+
+.skills_content .experience_card {
+    display: flex;
+    padding: 1rem;
+    background: linear-gradient(95.47deg, rgba(255, 255, 255, 0.105) 46.22%, rgba(255, 255, 255, 0.03) 98.89%);
+    box-shadow: 0px 0px 15px 2px rgba(113, 135, 162, 0.25);
+    backdrop-filter: blur(40px);
+    border-radius: 0.8rem;
+}
+
+.skills_content .experience_card .date {
+    color: #4A4E5A;
+}
+
+.skills_content .experience_card .role {
+    color: #242D49;
+}
+
+.skills_content .experience_card .company {
+    color: #4A4E5A;
+}
+
+.projects_content .heading {
+    color: #242D49;
+}
+
+.projects_content .short_text {
+    color: #4A4E5A;
+}
+
+.projects_content .project_item .project_name {
+    color: #242D49;
+}
+
+.projects_content .project_item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contact {
+    overflow: hidden;
+    position: relative;
+    background-color: #0075FF;
+    color: white;
+}
+
+.contact .divider {
+    height: 1px;
+    background-color: white;
+}
+
+.contact .circle_img {
+    background: url('../images/circle-footer.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}

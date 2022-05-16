@@ -89,7 +89,7 @@ function App () {
             </div>
             <div className={`${styles.skills_section} mt-16`}>
               <div className={`${styles.heading} font-semibold text-[1.8rem]`}>Skills</div>
-              <div className={`${styles.skills_set} mt-6 grid grid-cols-3`}>
+              <div className={`${styles.skills_set} mt-6 grid grid-cols-2`}>
                 <div className={styles.skill_item}>
                   <div className={`${styles.icon} p-3 text-3xl md:p-4 md:text-4xl`}>
                     <Icon icon="mdi:api"/>
@@ -184,7 +184,7 @@ function App () {
           <div className={`${styles.heading} text-3xl lg:text-4xl font-semibold`}>My Projects</div>
           <div className={`${styles.short_text} mt-4 text-center text-[0.9rem] lg:text-[0.95rem]`}>Three years experience on software development</div>
         </div>
-        <div className={`${styles.projects_set} grid grid-cols-2 md:grid-cols-3 gap-6 md:gap-8`}>
+        <div className={`${styles.projects_set} grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8`}>
           <div className={styles.project_item}>
             <div className="rounded-lg md:rounded-2xl overflow-hidden h-[85%]">
               <img src={zavelinSiteImg}/>
@@ -238,24 +238,24 @@ function App () {
 
       <div className={`${styles.contact} mt-12 lg:mt-24 p-8 pb-32 md:pb-8`}>
         <div className="mb-12">
-          <div className={`${styles.heading} text-[2rem] font-semibold`}>Contact Information</div>
-          <div className={`${styles.short_text} text-lg`}>Have amazing idea or ask something ? Let&apos;s talk.</div>
+          <div className={`${styles.heading} text-[1.75rem] md:text-[2rem] font-semibold`}>Contact Information</div>
+          <div className={`${styles.short_text} text-sm md:text-lg`}>Have amazing idea or ask something ? Let&apos;s talk.</div>
         </div>
         <div className="px-4 md:px-8">
           <div className="flex items-center gap-4 mb-2">
             <div className="text-2xl">
               <Icon icon="fa6-brands:telegram"/>
             </div>
-              <div className="text-lg">
-                <a href="https://t.me/zavierferodova" target="_blank" rel="noopener noreferrer">t.me/zavierferodova</a>
+              <div className="text-base md:text-lg">
+                <a className="line-clamp-1" href="https://t.me/zavierferodova" target="_blank" rel="noopener noreferrer">t.me/zavierferodova</a>
               </div>
           </div>
           <div className="flex items-center gap-4 mb-2">
             <div className="text-2xl">
               <Icon icon="fa6-brands:instagram-square"/>
             </div>
-            <div className="text-lg">
-              <a href="https://instagram.com/zavierferodova" target="_blank" rel="noopener noreferrer">
+            <div className="text-base md:text-lg">
+              <a className="line-clamp-1" href="https://instagram.com/zavierferodova" target="_blank" rel="noopener noreferrer">
                 @zavierferodova
               </a>
             </div>
@@ -264,12 +264,12 @@ function App () {
             <div className="text-2xl">
               <Icon icon="fa-brands:linkedin"/>
             </div>
-            <div className="text-lg">
-              <a href="https://linkedin.com/in/zavierferodova" target="_blank" rel="noopener noreferrer">linkedin.com/in/zavierferodova</a>
+            <div className="text-base md:text-lg">
+              <a className="line-clamp-1" href="https://linkedin.com/in/zavierferodova" target="_blank" rel="noopener noreferrer">linkedin.com/in/zavierferodova</a>
             </div>
           </div>
           <div className={`${styles.divider} mt-6 w-full md:w-[80%]`}></div>
-          <div className="mt-2">&copy; Designed by Zavier Ferodova 2022</div>
+          <div className="mt-2 text-sm md:text-base">&copy; Designed by Zavier Ferodova 2022</div>
         </div>
         <div className={`${styles.circle_img} w-[14rem] h-[14rem] md:w-[18rem] md:h-[18rem] absolute right-0 bottom-0 transform translate-x-[6rem] translate-y-[7rem]`}></div>
       </div>

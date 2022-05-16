@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.60510a62.css",
+    "main.js": "/static/js/main.322a8b19.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/cinema-catalogue-app.png": "/static/media/cinema-catalogue-app.f46669981564239e0edd.png",
+    "static/media/lets-bus-site.png": "/static/media/lets-bus-site.29e35f2a9f9800e295bd.png",
+    "static/media/mikomik-app.png": "/static/media/mikomik-app.f0e5bdfcabcfca9596ab.png",
+    "static/media/batik-tiga-dara-site.png": "/static/media/batik-tiga-dara-site.7d8b6464b649e148915d.png",
+    "static/media/zavelin-site.png": "/static/media/zavelin-site.720680363c06446e8755.png",
+    "static/media/zenzshoes-site.png": "/static/media/zenzshoes-site.66d54545abe111fe3205.png",
+    "static/media/books.png": "/static/media/books.2f1298fa705cd91ddd1b.png",
+    "static/media/hero.png": "/static/media/hero.2db684e3036076a50584.png",
+    "index.html": "/index.html",
+    "main.60510a62.css.map": "/static/css/main.60510a62.css.map",
+    "main.322a8b19.js.map": "/static/js/main.322a8b19.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.60510a62.css",
+    "static/js/main.322a8b19.js"
+  ]
+}

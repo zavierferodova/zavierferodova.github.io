@@ -18,10 +18,10 @@ function App () {
         </div>
         <div className={`${styles.menu} hidden lg:block`}>
           <ul>
-            <li><a>Home</a></li>
-            <li><a>About</a></li>
-            <li><a>Projects</a></li>
-            <li><a>Contact</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
           </ul>
         </div>
         <div className={`${styles.btn_download_container} hidden lg:flex`}>
@@ -186,7 +186,7 @@ function App () {
         </div>
         <div className={`${styles.projects_set} grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8`}>
           <div className={styles.project_item}>
-            <div className="rounded-lg md:rounded-2xl overflow-hidden h-[85%]">
+            <div className="bg-gray-200 rounded-lg md:rounded-2xl overflow-hidden h-[85%]">
               <img src={zavelinSiteImg}/>
             </div>
             <div className={`${styles.project_name} text-base md:text-xl font-medium mt-2`}>
@@ -194,7 +194,7 @@ function App () {
             </div>
           </div>
           <div className={styles.project_item}>
-            <div className="rounded-lg md:rounded-2xl overflow-hidden h-[85%]">
+            <div className="bg-gray-200 rounded-lg md:rounded-2xl overflow-hidden h-[85%]">
               <img src={cinemaCatalogueAppImg}/>
             </div>
             <div className={`${styles.project_name} text-base md:text-xl font-medium mt-2`}>
@@ -202,7 +202,7 @@ function App () {
             </div>
           </div>
           <div className={styles.project_item}>
-            <div className="rounded-lg md:rounded-2xl overflow-hidden h-[85%]">
+            <div className="bg-gray-200 rounded-lg md:rounded-2xl overflow-hidden h-[85%]">
               <img src={mikomikAppImg}/>
             </div>
             <div className={`${styles.project_name} text-base md:text-xl font-medium mt-2`}>
@@ -210,7 +210,7 @@ function App () {
             </div>
           </div>
           <div className={styles.project_item}>
-            <div className="rounded-lg md:rounded-2xl overflow-hidden h-[85%]">
+            <div className="bg-gray-200 rounded-lg md:rounded-2xl overflow-hidden h-[85%]">
               <img src={zenzshoesSiteImg}/>
             </div>
             <div className={`${styles.project_name} text-base md:text-xl font-medium mt-2`}>
@@ -218,7 +218,7 @@ function App () {
             </div>
           </div>
           <div className={styles.project_item}>
-            <div className="rounded-lg md:rounded-2xl overflow-hidden h-[85%]">
+            <div className="bg-gray-200 rounded-lg md:rounded-2xl overflow-hidden h-[85%]">
               <img src={letsBusSiteImg}/>
             </div>
             <div className={`${styles.project_name} text-base md:text-xl font-medium mt-2`}>
@@ -226,7 +226,7 @@ function App () {
             </div>
           </div>
           <div className={styles.project_item}>
-            <div className="rounded-lg md:rounded-2xl overflow-hidden h-[85%]">
+            <div className="bg-gray-200 rounded-lg md:rounded-2xl overflow-hidden h-[85%]">
               <img src={batikTigaDaraSiteImg}/>
             </div>
             <div className={`${styles.project_name} text-base md:text-xl font-medium mt-2`}>

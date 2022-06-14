@@ -1,15 +1,49 @@
 import { Icon } from '@iconify/react'
 import heroImg from '../images/hero.png'
 import booksImage from '../images/books.png'
-import zavelinSiteImg from '../images/zavelin-site.png'
-import cinemaCatalogueAppImg from '../images/cinema-catalogue-app.png'
-import mikomikAppImg from '../images/mikomik-app.png'
-import zenzshoesSiteImg from '../images/zenzshoes-site.png'
-import letsBusSiteImg from '../images/lets-bus-site.png'
-import batikTigaDaraSiteImg from '../images/batik-tiga-dara-site.png'
+import zavelinSiteImg from '../images/zavelin-site.webp'
+import cinemaCatalogueAppImg from '../images/cinema-catalogue-app.webp'
+import mikomikAppImg from '../images/mikomik-app.webp'
+import zenzshoesSiteImg from '../images/zenzshoes-site.webp'
+import letsBusSiteImg from '../images/lets-bus-site.webp'
+import batikTigaDaraSiteImg from '../images/batik-tiga-dara-site.webp'
 import styles from './Home.module.css'
+import { useEffect, useRef, useState } from 'react'
 
 function App () {
+  const topContent = useRef<HTMLDivElement>(null)
+  const aboutContent = useRef<HTMLDivElement>(null)
+  const experienceContent = useRef<HTMLDivElement>(null)
+  const projectsContent = useRef<HTMLDivElement>(null)
+  const contactContent = useRef<HTMLDivElement>(null)
+  const [windowScrollPosition, setWindowScrollPosition] = useState(0)
+
+  const scrollToContent = (elementRef: any) => {
+    if (elementRef.current) {
+      const scrollBarHeight = window.innerHeight * (window.innerHeight / document.body.offsetHeight)
+      window.scrollTo({
+        top: elementRef.current.offsetTop - scrollBarHeight
+      })
+    }
+  }
+
+  const isNavMenuActive = (elementRef: any) => {
+    if (elementRef.current) {
+      const scrollBarHeight = window.innerHeight * (window.innerHeight / document.body.offsetHeight)
+      const offsetTop = elementRef.current.offsetTop - (2.5 * scrollBarHeight)
+      const offsetBottom = offsetTop + elementRef.current.offsetHeight
+      if (windowScrollPosition >= offsetTop && windowScrollPosition < offsetBottom) {
+        return true
+      }
+    }
+  }
+
+  useEffect(() => {
+    window.addEventListener('scroll', () => {
+      setWindowScrollPosition(window.scrollY)
+    })
+  }, [])
+
   return (
     <div className={styles.app}>
       <div className={styles.navbar}>
@@ -18,21 +52,41 @@ function App () {
         </div>
         <div className={`${styles.menu} hidden lg:block`}>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contact</a></li>
+            <li>
+              <a className={isNavMenuActive(topContent) ? styles.active : ''}
+                onClick={() => scrollToContent(topContent)}>
+                Home
+              </a>
+            </li>
+            <li>
+              <a className={isNavMenuActive(aboutContent) || isNavMenuActive(experienceContent) ? styles.active : ''}
+                onClick={() => scrollToContent(aboutContent)}>
+                About
+              </a>
+            </li>
+            <li>
+              <a className={isNavMenuActive(projectsContent) ? styles.active : ''}
+                onClick={() => scrollToContent(projectsContent)}>
+                Projects
+              </a>
+            </li>
+            <li>
+              <a className={isNavMenuActive(contactContent) ? styles.active : ''}
+                onClick={() => scrollToContent(contactContent)}>
+                Contact
+              </a>
+            </li>
           </ul>
         </div>
         <div className={`${styles.btn_download_container} hidden lg:flex`}>
-          <button className={styles.btn_download}>
+          <a href="#" className={styles.btn_download}>
             Download CV <span className="text-2xl"><Icon icon="ant-design:cloud-download-outlined"/></span>
-          </button>
+          </a>
           <div className={styles.reflection}></div>
         </div>
       </div>
 
-      <div className={`${styles.top_content} grid grid-cols-1 md:grid-cols-2 mx-12 md:mt-9 md:mx-16 lg:mx-44`}>
+      <div ref={topContent} className={`${styles.top_content} grid grid-cols-1 md:grid-cols-2 mx-12 md:mt-9 md:mx-16 lg:mx-44`}>
         <div className="flex justify-center md:justify-start">
           <div className={styles.left_text}>
             <div className={`${styles.circle_blur_1}`}></div>
@@ -60,7 +114,7 @@ function App () {
         </div>
       </div>
 
-      <div className={`${styles.about_content} mt-32 lg:mt-44 grid grid-cols-1 md:grid-cols-2 mx-8 md:ml-10 xl:ml-28 md:mr-4`}>
+      <div ref={aboutContent} className={`${styles.about_content} mt-32 lg:mt-44 grid grid-cols-1 md:grid-cols-2 mx-8 md:ml-10 xl:ml-28 md:mr-4`}>
         <div>
           <div className={`${styles.heading} text-3xl leading-[2.5rem] font-semibold lg:text-4xl lg:leading-[3rem]`}>
             <span>Stuff</span><br/>
@@ -75,7 +129,7 @@ function App () {
         </div>
       </div>
 
-      <div className={`${styles.skills_content} mt-12 lg:mt-24 grid grid-cols-1 md:grid-cols-2 mx-8 md:mx-10 lg:mx-28`}>
+      <div ref={experienceContent} className={`${styles.skills_content} pt-12 lg:pt-24 grid grid-cols-1 md:grid-cols-2 mx-8 md:mx-10 lg:mx-28`}>
         <div>
           <div>
             <div className={styles.head_section}>
@@ -179,7 +233,7 @@ function App () {
         </div>
       </div>
 
-      <div className={`${styles.projects_content} mt-12 lg:mt-24 mx-8`}>
+      <div ref={projectsContent} className={`${styles.projects_content} mt-12 lg:mt-24 mx-8`}>
         <div className="flex flex-col items-center mb-12">
           <div className={`${styles.heading} text-3xl lg:text-4xl font-semibold`}>My Projects</div>
           <div className={`${styles.short_text} mt-4 text-center text-[0.9rem] lg:text-[0.95rem]`}>Three years experience on software development</div>
@@ -236,7 +290,7 @@ function App () {
         </div>
       </div>
 
-      <div className={`${styles.contact} mt-12 lg:mt-24 p-8 pb-32 md:pb-8`}>
+      <div ref={contactContent} className={`${styles.contact} mt-12 lg:mt-24 p-8 pb-32 md:pb-8`}>
         <div className="mb-12">
           <div className={`${styles.heading} text-[1.75rem] md:text-[2rem] font-semibold`}>Contact Information</div>
           <div className={`${styles.short_text} text-sm md:text-lg`}>Have amazing idea or ask something ? Let&apos;s talk.</div>
@@ -269,7 +323,7 @@ function App () {
             </div>
           </div>
           <div className={`${styles.divider} mt-6 w-full md:w-[80%]`}></div>
-          <div className="mt-2 text-sm md:text-base">&copy; Designed by Zavier Ferodova 2022</div>
+          <div className="mt-2 text-sm md:text-base">&copy; Designed by Zavier Ferodova Al Fitroh 2022</div>
         </div>
         <div className={`${styles.circle_img} w-[14rem] h-[14rem] md:w-[18rem] md:h-[18rem] absolute right-0 bottom-0 transform translate-x-[6rem] translate-y-[7rem]`}></div>
       </div>

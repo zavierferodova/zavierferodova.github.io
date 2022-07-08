@@ -100,7 +100,7 @@ function App () {
               I love make something that useful for everyone.
             </div>
             <div className={`${styles.btn_more_container} mt-6`}>
-              <button className={styles.btn_more}>
+              <button className={styles.btn_more} onClick={() => scrollToContent(aboutContent)}>
                 More <Icon icon="fa6-solid:chevron-down"/>
               </button>
               <div className={styles.reflection}></div>

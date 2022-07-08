@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.cf6ebe56.css",
-    "main.js": "/static/js/main.202829c6.js",
+    "main.js": "/static/js/main.694590cc.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/books.png": "/static/media/books.8cc0c34c29f61e8e44ee.png",
     "static/media/hero.png": "/static/media/hero.2db684e3036076a50584.png",
@@ -13,11 +13,11 @@
     "static/media/zenzshoes-site.webp": "/static/media/zenzshoes-site.14ab579de739d911bd9d.webp",
     "index.html": "/index.html",
     "main.cf6ebe56.css.map": "/static/css/main.cf6ebe56.css.map",
-    "main.202829c6.js.map": "/static/js/main.202829c6.js.map",
+    "main.694590cc.js.map": "/static/js/main.694590cc.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cf6ebe56.css",
-    "static/js/main.202829c6.js"
+    "static/js/main.694590cc.js"
   ]
 }

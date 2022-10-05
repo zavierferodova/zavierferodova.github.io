@@ -4,7 +4,7 @@ import booksImage from '../images/books.png'
 import zavelinSiteImg from '../images/zavelin-site.webp'
 import cinemaCatalogueAppImg from '../images/cinema-catalogue-app.webp'
 import mikomikAppImg from '../images/mikomik-app.webp'
-import zenzshoesSiteImg from '../images/zenzshoes-site.webp'
+// import zenzshoesSiteImg from '../images/zenzshoes-site.webp'
 import letsBusSiteImg from '../images/lets-bus-site.webp'
 import batikTigaDaraSiteImg from '../images/batik-tiga-dara-site.webp'
 import styles from './Home.module.css'
@@ -30,7 +30,7 @@ function App () {
   const isNavMenuActive = (elementRef: any) => {
     if (elementRef.current) {
       const scrollBarHeight = window.innerHeight * (window.innerHeight / document.body.offsetHeight)
-      const offsetTop = elementRef.current.offsetTop - (2.5 * scrollBarHeight)
+      const offsetTop = elementRef.current.offsetTop - (2.8 * scrollBarHeight)
       const offsetBottom = offsetTop + elementRef.current.offsetHeight
       if (windowScrollPosition >= offsetTop && windowScrollPosition < offsetBottom) {
         return true
@@ -238,53 +238,49 @@ function App () {
           <div className={`${styles.heading} text-3xl lg:text-4xl font-semibold`}>My Projects</div>
           <div className={`${styles.short_text} mt-4 text-center text-[0.9rem] lg:text-[0.95rem]`}>Three years experience on software development</div>
         </div>
-        <div className={`${styles.projects_set} grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8`}>
-          <div className={styles.project_item}>
-            <div className="bg-gray-200 rounded-lg md:rounded-2xl overflow-hidden h-[85%]">
-              <img src={zavelinSiteImg}/>
+        <div className={styles.projects_set}>
+          <div className="flex flex-col md:flex-row gap-6 md:gap-8 mb-6 md:mb-8">
+            <div className={styles.project_item}>
+              <div className="bg-gray-200 rounded-lg md:rounded-2xl overflow-hidden h-[85%]">
+                <img src={zavelinSiteImg}/>
+              </div>
+              <div className={`${styles.project_name} text-base md:text-xl font-medium mt-2`}>
+                Zavelin
+              </div>
             </div>
-            <div className={`${styles.project_name} text-base md:text-xl font-medium mt-2`}>
-              Zavelin
+            <div className={styles.project_item}>
+              <div className="bg-gray-200 rounded-lg md:rounded-2xl overflow-hidden h-[85%]">
+                <img src={letsBusSiteImg}/>
+              </div>
+              <div className={`${styles.project_name} text-base md:text-xl font-medium mt-2`}>
+                Let&apos;s Bus
+              </div>
             </div>
-          </div>
-          <div className={styles.project_item}>
-            <div className="bg-gray-200 rounded-lg md:rounded-2xl overflow-hidden h-[85%]">
-              <img src={cinemaCatalogueAppImg}/>
-            </div>
-            <div className={`${styles.project_name} text-base md:text-xl font-medium mt-2`}>
-              Cinema Catalogue
-            </div>
-          </div>
-          <div className={styles.project_item}>
-            <div className="bg-gray-200 rounded-lg md:rounded-2xl overflow-hidden h-[85%]">
-              <img src={mikomikAppImg}/>
-            </div>
-            <div className={`${styles.project_name} text-base md:text-xl font-medium mt-2`}>
-              Mikomik
-            </div>
-          </div>
-          <div className={styles.project_item}>
-            <div className="bg-gray-200 rounded-lg md:rounded-2xl overflow-hidden h-[85%]">
-              <img src={zenzshoesSiteImg}/>
-            </div>
-            <div className={`${styles.project_name} text-base md:text-xl font-medium mt-2`}>
-              Zenz Shoes Store
+            <div className={styles.project_item}>
+              <div className="bg-gray-200 rounded-lg md:rounded-2xl overflow-hidden h-[85%]">
+                <img src={batikTigaDaraSiteImg}/>
+              </div>
+              <div className={`${styles.project_name} text-base md:text-xl font-medium mt-2`}>
+                Batik Tiga Dara
+              </div>
             </div>
           </div>
-          <div className={styles.project_item}>
-            <div className="bg-gray-200 rounded-lg md:rounded-2xl overflow-hidden h-[85%]">
-              <img src={letsBusSiteImg}/>
+          <div className="flex flex-col md:flex-row gap-6 justify-center md:gap-8">
+            <div className={styles.project_item}>
+              <div className="bg-gray-200 rounded-lg md:rounded-2xl overflow-hidden h-[85%]">
+                <img src={cinemaCatalogueAppImg}/>
+              </div>
+              <div className={`${styles.project_name} text-base md:text-xl font-medium mt-2`}>
+                Cinema Catalogue
+              </div>
             </div>
-            <div className={`${styles.project_name} text-base md:text-xl font-medium mt-2`}>
-              Let&apos;s Bus
-            </div>
-          </div>
-          <div className={styles.project_item}>
-            <div className="bg-gray-200 rounded-lg md:rounded-2xl overflow-hidden h-[85%]">
-              <img src={batikTigaDaraSiteImg}/>
-            </div>
-            <div className={`${styles.project_name} text-base md:text-xl font-medium mt-2`}>
-              Batik Tiga Dara
+            <div className={styles.project_item}>
+              <div className="bg-gray-200 rounded-lg md:rounded-2xl overflow-hidden h-[85%]">
+                <img src={mikomikAppImg}/>
+              </div>
+              <div className={`${styles.project_name} text-base md:text-xl font-medium mt-2`}>
+                Mikomik
+              </div>
             </div>
           </div>
         </div>

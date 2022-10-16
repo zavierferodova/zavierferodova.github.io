@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3155ea5b.css",
-    "main.js": "/static/js/main.cde946ba.js",
+    "main.css": "/static/css/main.0595349e.css",
+    "main.js": "/static/js/main.10e8e77a.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/books.png": "/static/media/books.8cc0c34c29f61e8e44ee.png",
     "static/media/hero.png": "/static/media/hero.2db684e3036076a50584.png",
@@ -11,12 +11,12 @@
     "static/media/cinema-catalogue-app.webp": "/static/media/cinema-catalogue-app.4721c66bd6fc6b97ede2.webp",
     "static/media/zavelin-site.webp": "/static/media/zavelin-site.0fdb527ac19b084a0b65.webp",
     "index.html": "/index.html",
-    "main.3155ea5b.css.map": "/static/css/main.3155ea5b.css.map",
-    "main.cde946ba.js.map": "/static/js/main.cde946ba.js.map",
+    "main.0595349e.css.map": "/static/css/main.0595349e.css.map",
+    "main.10e8e77a.js.map": "/static/js/main.10e8e77a.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3155ea5b.css",
-    "static/js/main.cde946ba.js"
+    "static/css/main.0595349e.css",
+    "static/js/main.10e8e77a.js"
   ]
 }

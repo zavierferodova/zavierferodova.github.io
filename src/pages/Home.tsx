@@ -4,7 +4,6 @@ import booksImage from '../images/books.png'
 import zavelinSiteImg from '../images/zavelin-site.webp'
 import cinemaCatalogueAppImg from '../images/cinema-catalogue-app.webp'
 import mikomikAppImg from '../images/mikomik-app.webp'
-// import zenzshoesSiteImg from '../images/zenzshoes-site.webp'
 import letsBusSiteImg from '../images/lets-bus-site.webp'
 import batikTigaDaraSiteImg from '../images/batik-tiga-dara-site.webp'
 import styles from './Home.module.css'
@@ -254,7 +253,7 @@ function App () {
                   <img src={zavelinSiteImg}/>
                 </div>
                 <div className={`${styles.project_name} text-base md:text-xl font-medium mt-2`}>
-                  Zavelin
+                  Zavelin Blog
                 </div>
               </div>
               <div className={styles.project_item}>

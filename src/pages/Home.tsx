@@ -204,6 +204,15 @@ function App () {
             <div className={`${styles.experience_set}`}>
               <div className={`${styles.experience_card} mb-4`}>
                 <div className="w-[30%] flex-shrink-0">
+                  <div className={`${styles.date} text-xs md:text-sm mt-2`}>Nov 2021 - Present</div>
+                </div>
+                <div className="ml-4 w-[70%]">
+                  <div className={`${styles.role} text-base md:text-xl font-semibold`}>Web Developer Freelance</div>
+                  <div className={`${styles.company} text-xs md:text-sm mt-2`}>Self Employed</div>
+                </div>
+              </div>
+              <div className={`${styles.experience_card} mb-4`}>
+                <div className="w-[30%] flex-shrink-0">
                   <div className={`${styles.date} text-xs md:text-sm mt-2`}>Dec 2020 - Jan 2021</div>
                 </div>
                 <div className="ml-4 w-[70%]">

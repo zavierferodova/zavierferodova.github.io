@@ -1,7 +1,10 @@
 import { Icon } from '@iconify/react'
 import heroImg from '../images/hero.png'
 import booksImage from '../images/books.png'
-import zavelinSiteImg from '../images/zavelin-site.webp'
+import digitalQuranImg from '../images/digital-quran.webp'
+import coronaStatisticsImg from '../images/corona-statistics-site.webp'
+import mbasJajanImg from '../images/mbas-jajan-site.webp'
+import whatSenderImg from '../images/what-sender-site.webp'
 import cinemaCatalogueAppImg from '../images/cinema-catalogue-app.webp'
 import mikomikAppImg from '../images/mikomik-app.webp'
 import letsBusSiteImg from '../images/lets-bus-site.webp'
@@ -109,8 +112,8 @@ function App () {
               </div>
             </div>
           </div>
-          <div className={`${styles.hero_section} flex justify-center md:justify-end mt-10 lg:mt-0`}>
-            <div className="w-[14rem] md:w-[14rem] lg:w-[19rem]">
+          <div className={`${styles.hero_section} flex justify-center md:justify-end items-end mt-10 lg:mt-0`}>
+            <div className="w-[16rem] md:w-[16rem] lg:w-[22rem]">
               <img src={heroImg}/>
             </div>
           </div>
@@ -250,10 +253,10 @@ function App () {
             <div className="flex flex-col md:flex-row gap-6 md:gap-8 mb-6 md:mb-8">
               <div className={styles.project_item}>
                 <div className="bg-gray-200 rounded-lg md:rounded-2xl overflow-hidden h-[85%]">
-                  <img src={zavelinSiteImg}/>
+                  <img src={digitalQuranImg}/>
                 </div>
                 <div className={`${styles.project_name} text-base md:text-xl font-medium mt-2`}>
-                  Zavelin Blog
+                  Digital Qur&apos;an
                 </div>
               </div>
               <div className={styles.project_item}>
@@ -270,6 +273,32 @@ function App () {
                 </div>
                 <div className={`${styles.project_name} text-base md:text-xl font-medium mt-2`}>
                   Batik Tiga Dara
+                </div>
+              </div>
+            </div>
+            <div className="flex flex-col md:flex-row gap-6 md:gap-8 mb-6 md:mb-8">
+              <div className={styles.project_item}>
+                <div className="bg-gray-200 rounded-lg md:rounded-2xl overflow-hidden h-[85%]">
+                  <img src={coronaStatisticsImg}/>
+                </div>
+                <div className={`${styles.project_name} text-base md:text-xl font-medium mt-2`}>
+                  Corona Statistics
+                </div>
+              </div>
+              <div className={styles.project_item}>
+                <div className="bg-gray-200 rounded-lg md:rounded-2xl overflow-hidden h-[85%]">
+                  <img src={mbasJajanImg}/>
+                </div>
+                <div className={`${styles.project_name} text-base md:text-xl font-medium mt-2`}>
+                  Mbas Jajan
+                </div>
+              </div>
+              <div className={styles.project_item}>
+                <div className="bg-gray-200 rounded-lg md:rounded-2xl overflow-hidden h-[85%]">
+                  <img src={whatSenderImg}/>
+                </div>
+                <div className={`${styles.project_name} text-base md:text-xl font-medium mt-2`}>
+                  WhatSender
                 </div>
               </div>
             </div>
@@ -306,16 +335,16 @@ function App () {
               <div className="text-2xl">
                 <Icon icon="fa6-brands:telegram"/>
               </div>
-                <div className="text-base md:text-lg">
-                  <a className="line-clamp-1" href="https://t.me/zavierferodova" target="_blank" rel="noopener noreferrer">t.me/zavierferodova</a>
+                <div className="text-base md:text-lg w-full">
+                  <a className="line-clamp-1 truncate" href="https://t.me/zavierferodova" target="_blank" rel="noopener noreferrer">t.me/zavierferodova</a>
                 </div>
             </div>
             <div className="flex items-center gap-4 mb-2">
               <div className="text-2xl">
                 <Icon icon="fa6-brands:instagram-square"/>
               </div>
-              <div className="text-base md:text-lg">
-                <a className="line-clamp-1" href="https://instagram.com/zavierferodova" target="_blank" rel="noopener noreferrer">
+              <div className="text-base md:text-lg w-full">
+                <a className="line-clamp-1 truncate" href="https://instagram.com/zavierferodova" target="_blank" rel="noopener noreferrer">
                   @zavierferodova
                 </a>
               </div>
@@ -324,8 +353,8 @@ function App () {
               <div className="text-2xl">
                 <Icon icon="fa-brands:linkedin"/>
               </div>
-              <div className="text-base md:text-lg">
-                <a className="line-clamp-1" href="https://linkedin.com/in/zavierferodova" target="_blank" rel="noopener noreferrer">linkedin.com/in/zavierferodova</a>
+              <div className="text-base md:text-lg w-full">
+                <a className="line-clamp-1 truncate" href="https://linkedin.com/in/zavierferodova" target="_blank" rel="noopener noreferrer">linkedin.com/in/zavierferodova</a>
               </div>
             </div>
             <div className={`${styles.divider} mt-6 w-full md:w-[80%]`}></div>

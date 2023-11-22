@@ -82,7 +82,7 @@ function App () {
             </ul>
           </div>
           <div className={`${styles.btn_download_container} hidden lg:flex`}>
-            <a href="#" className={styles.btn_download}>
+            <a href="https://drive.google.com/drive/folders/1SSoaQtoH62zeRTXl5xruuGL09FEIPHT7?usp=share_link" target="_blank" rel="noopener noreferrer" className={styles.btn_download}>
               Download CV <span className="text-2xl"><Icon icon="ant-design:cloud-download-outlined"/></span>
             </a>
             <div className={styles.reflection}></div>
@@ -101,8 +101,7 @@ function App () {
                 <span className={styles.dev_name}>Zavier Ferodova</span>
               </div>
               <div className={`${styles.bottom} text-[0.9rem] lg:text-[0.95rem] mt-6`}>
-                A boy experienced with software development,
-                I love make something that useful for everyone.
+                A boy with experience in software development, I love to make something that useful for everyone.
               </div>
               <div className={`${styles.btn_more_container} mt-6`}>
                 <button className={styles.btn_more} onClick={() => scrollToContent(aboutContent)}>
@@ -128,7 +127,7 @@ function App () {
               <span>About Me</span>
             </div>
             <div className={`${styles.short_desc} mt-8 text-[0.9rem] lg:text-[0.95rem] md:w-3/4`}>
-              Currently, I am an Informatics college student from Surakarta, Indonesia. I continue my study from Vocational High School with Software Engineering study program to college cause I want reach one of my dreams getting expert on part of Information Technology.
+              Currently, I am an Informatics college student from Surakarta, Indonesia. I continued my studies from Vocational High School with Software Engineering study program to college cause I wanted to reach one of my dreams getting expert on part of Information Technology.
             </div>
           </div>
           <div className={`${styles.books_img_container} flex justify-end md:pt-4`}>
@@ -147,7 +146,7 @@ function App () {
                   <span>Experience</span>
                 </div>
                 <div className={`${styles.short_text} md:w-[60%] mt-4 text-[0.9rem] lg:text-[0.95rem]`}>
-                  A specialist on full stack web development, build modern responsive site.
+                  A specialist in full stack web development, build modern responsive site.
                 </div>
               </div>
               <div className={`${styles.skills_section} mt-16`}>
@@ -175,6 +174,16 @@ function App () {
                     </div>
                     <div className={`${styles.text} w-[80%] text-sm md:text-base`}>
                       Native Android
+                    </div>
+                  </div>
+                  <div className={styles.skill_item}>
+                    <div className={`${styles.icon} p-3 text-3xl md:p-4 md:text-4xl`}>
+                      <div className="-translate-x-[0.1rem]">
+                        <Icon icon="material-symbols:flutter"/>
+                      </div>
+                    </div>
+                    <div className={`${styles.text} w-[80%] text-sm md:text-base`}>
+                      Mobile Flutter
                     </div>
                   </div>
                   <div className={styles.skill_item}>
@@ -256,7 +265,7 @@ function App () {
         <div ref={projectsContent} className={`${styles.projects_content} mt-12 lg:mt-24 mx-8`}>
           <div className="flex flex-col items-center mb-12">
             <div className={`${styles.heading} text-3xl lg:text-4xl font-semibold`}>My Projects</div>
-            <div className={`${styles.short_text} mt-4 text-center text-[0.9rem] lg:text-[0.95rem]`}>Three years experience on software development</div>
+            <div className={`${styles.short_text} mt-4 text-center text-[0.9rem] lg:text-[0.95rem]`}>More than three years experience in software development</div>
           </div>
           <div className={styles.projects_set}>
             <div className="flex flex-col md:flex-row gap-6 md:gap-8 mb-6 md:mb-8">
@@ -270,36 +279,36 @@ function App () {
               </div>
               <div className={styles.project_item}>
                 <div className="bg-gray-200 rounded-lg md:rounded-2xl overflow-hidden h-[85%]">
-                  <img src={letsBusSiteImg}/>
-                </div>
-                <div className={`${styles.project_name} text-base md:text-xl font-medium mt-2`}>
-                  Let&apos;s Bus
-                </div>
-              </div>
-              <div className={styles.project_item}>
-                <div className="bg-gray-200 rounded-lg md:rounded-2xl overflow-hidden h-[85%]">
                   <img src={batikTigaDaraSiteImg}/>
                 </div>
                 <div className={`${styles.project_name} text-base md:text-xl font-medium mt-2`}>
                   Batik Tiga Dara
                 </div>
               </div>
-            </div>
-            <div className="flex flex-col md:flex-row gap-6 md:gap-8 mb-6 md:mb-8">
               <div className={styles.project_item}>
                 <div className="bg-gray-200 rounded-lg md:rounded-2xl overflow-hidden h-[85%]">
-                  <img src={coronaStatisticsImg}/>
+                  <img src={letsBusSiteImg}/>
                 </div>
                 <div className={`${styles.project_name} text-base md:text-xl font-medium mt-2`}>
-                  Corona Statistics
+                  Let&apos;s Bus
                 </div>
               </div>
+            </div>
+            <div className="flex flex-col md:flex-row gap-6 md:gap-8 mb-6 md:mb-8">
               <div className={styles.project_item}>
                 <div className="bg-gray-200 rounded-lg md:rounded-2xl overflow-hidden h-[85%]">
                   <img src={mbasJajanImg}/>
                 </div>
                 <div className={`${styles.project_name} text-base md:text-xl font-medium mt-2`}>
                   Mbas Jajan
+                </div>
+              </div>
+              <div className={styles.project_item}>
+                <div className="bg-gray-200 rounded-lg md:rounded-2xl overflow-hidden h-[85%]">
+                  <img src={coronaStatisticsImg}/>
+                </div>
+                <div className={`${styles.project_name} text-base md:text-xl font-medium mt-2`}>
+                  Corona Statistics
                 </div>
               </div>
               <div className={styles.project_item}>
@@ -356,6 +365,14 @@ function App () {
                 <a className="line-clamp-1 truncate" href="https://instagram.com/zavierferodova" target="_blank" rel="noopener noreferrer">
                   @zavierferodova
                 </a>
+              </div>
+            </div>
+            <div className="flex text-lg items-center gap-4 mb-2">
+              <div className="text-2xl">
+                <Icon icon="ion:mail"/>
+              </div>
+              <div className="text-base md:text-lg w-full">
+                <a className="line-clamp-1 truncate" href="mailto:zavierdeveloper@gmail.com" target="_blank" rel="noopener noreferrer">zavierdeveloper@gmail.com</a>
               </div>
             </div>
             <div className="flex text-lg items-center gap-4 mb-2">

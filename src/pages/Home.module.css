@@ -234,6 +234,7 @@ html {
 .skills_content .skills_section .skills_set .skill_item .icon {
     display: flex;
     justify-content: center;
+    align-items: center;
     color: white;
     background-color: #0075FF;
     clip-path: circle();

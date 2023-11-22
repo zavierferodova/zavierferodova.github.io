@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f58d117a.css",
-    "main.js": "/static/js/main.82326f72.js",
+    "main.css": "/static/css/main.49c86719.css",
+    "main.js": "/static/js/main.fa625eab.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/books.png": "/static/media/books.8cc0c34c29f61e8e44ee.png",
     "static/media/hero.png": "/static/media/hero.0d8ccdcd2c90f7ea2862.png",
@@ -10,16 +10,16 @@
     "static/media/cinema-catalogue-app.webp": "/static/media/cinema-catalogue-app.4721c66bd6fc6b97ede2.webp",
     "static/media/lets-bus-site.webp": "/static/media/lets-bus-site.3d40e8ed656d857199ad.webp",
     "static/media/mbas-jajan-site.webp": "/static/media/mbas-jajan-site.d5170dd4c420f32686af.webp",
-    "static/media/digital-quran.webp": "/static/media/digital-quran.e0ee4c1f00978812ed64.webp",
     "static/media/corona-statistics-site.webp": "/static/media/corona-statistics-site.6b32b47a652a7856a19e.webp",
     "static/media/what-sender-site.webp": "/static/media/what-sender-site.f08f63f28ea9fcefdb7a.webp",
+    "static/media/digital-quran.webp": "/static/media/digital-quran.388cbc470dceb82111c5.webp",
     "index.html": "/index.html",
-    "main.f58d117a.css.map": "/static/css/main.f58d117a.css.map",
-    "main.82326f72.js.map": "/static/js/main.82326f72.js.map",
+    "main.49c86719.css.map": "/static/css/main.49c86719.css.map",
+    "main.fa625eab.js.map": "/static/js/main.fa625eab.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f58d117a.css",
-    "static/js/main.82326f72.js"
+    "static/css/main.49c86719.css",
+    "static/js/main.fa625eab.js"
   ]
 }

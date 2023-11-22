@@ -146,7 +146,7 @@ function App () {
                   <span>Experience</span>
                 </div>
                 <div className={`${styles.short_text} md:w-[60%] mt-4 text-[0.9rem] lg:text-[0.95rem]`}>
-                  A specialist in full stack web development, build modern responsive site.
+                  A specialist in full stack web development, building modern responsive sites.
                 </div>
               </div>
               <div className={`${styles.skills_section} mt-16`}>

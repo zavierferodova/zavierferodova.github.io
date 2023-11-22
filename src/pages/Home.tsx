@@ -81,8 +81,8 @@ function App () {
               </li>
             </ul>
           </div>
-          <div className={`${styles.btn_download_container} hidden lg:flex`}>
-            <a href="https://drive.google.com/drive/folders/1SSoaQtoH62zeRTXl5xruuGL09FEIPHT7?usp=share_link" target="_blank" rel="noopener noreferrer" className={styles.btn_download}>
+          <div className={`${styles.btn_download_container} flex`}>
+            <a className={`${styles.btn_download} text-sm`} href="https://drive.google.com/drive/folders/1SSoaQtoH62zeRTXl5xruuGL09FEIPHT7?usp=share_link" target="_blank" rel="noopener noreferrer">
               Download CV <span className="text-2xl"><Icon icon="ant-design:cloud-download-outlined"/></span>
             </a>
             <div className={styles.reflection}></div>

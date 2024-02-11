@@ -10,7 +10,7 @@ import mimSurodadiSiteImg from '../images/mim-surodadi-site.webp'
 import letsBusSiteImg from '../images/lets-bus-site.webp'
 import batikTigaDaraSiteImg from '../images/batik-tiga-dara-site.webp'
 import styles from './Home.module.css'
-import { useEffect, useRef, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 
 function App () {
   const topContent = useRef<HTMLDivElement>(null)
@@ -18,7 +18,11 @@ function App () {
   const experienceContent = useRef<HTMLDivElement>(null)
   const projectsContent = useRef<HTMLDivElement>(null)
   const contactContent = useRef<HTMLDivElement>(null)
-  const [windowScrollPosition, setWindowScrollPosition] = useState(0)
+
+  const [isHomeActive, setIsHomeActive] = useState(false)
+  const [isAboutActive, setIsAboutActive] = useState(false)
+  const [isProjectsActive, setIsProjectActive] = useState(false)
+  const [isContactActive, setIsContactActive] = useState(false)
 
   const scrollToContent = (elementRef: any) => {
     if (elementRef.current) {
@@ -29,22 +33,59 @@ function App () {
     }
   }
 
-  const isNavMenuActive = (elementRef: any) => {
+  const isNavMenuActive = (elementRef: React.RefObject<HTMLDivElement>) => {
     if (elementRef.current) {
+      const scrollPosition = window.scrollY
       const scrollBarHeight = window.innerHeight * (window.innerHeight / document.body.offsetHeight)
       const offsetTop = elementRef.current.offsetTop - (2.8 * scrollBarHeight)
       const offsetBottom = offsetTop + elementRef.current.offsetHeight
-      if (windowScrollPosition >= offsetTop && windowScrollPosition < offsetBottom) {
+      if (scrollPosition >= offsetTop && scrollPosition < offsetBottom) {
         return true
       }
     }
   }
 
+  type ActivateNavMenuParams = {
+    elementRef: React.RefObject<HTMLDivElement>,
+    active: boolean,
+    dispatch: React.Dispatch<React.SetStateAction<boolean>>
+  }
+
+  const activateNavMenu = ({ elementRef, active, dispatch }: ActivateNavMenuParams) => {
+    if (isNavMenuActive(elementRef)) {
+      if (!active) dispatch(true)
+    } else if (active) {
+      dispatch(false)
+    }
+  }
+
   useEffect(() => {
-    window.addEventListener('scroll', () => {
-      setWindowScrollPosition(window.scrollY)
-    })
-  }, [])
+    const activateNavMenuDispatcher = () => {
+      activateNavMenu({
+        elementRef: topContent,
+        active: isHomeActive,
+        dispatch: setIsHomeActive
+      })
+      activateNavMenu({
+        elementRef: aboutContent,
+        active: isAboutActive,
+        dispatch: setIsAboutActive
+      })
+      activateNavMenu({
+        elementRef: projectsContent,
+        active: isProjectsActive,
+        dispatch: setIsProjectActive
+      })
+      activateNavMenu({
+        elementRef: contactContent,
+        active: isContactActive,
+        dispatch: setIsContactActive
+      })
+    }
+
+    window.addEventListener('scroll', activateNavMenuDispatcher)
+    return () => window.removeEventListener('scroll', activateNavMenuDispatcher)
+  }, [isHomeActive, isAboutActive, isProjectsActive, isContactActive])
 
   return (
     <div className={styles.app}>
@@ -56,25 +97,25 @@ function App () {
           <div className={`${styles.menu} hidden lg:block`}>
             <ul>
               <li>
-                <a className={isNavMenuActive(topContent) ? styles.active : ''}
+                <a className={isHomeActive ? styles.active : ''}
                   onClick={() => scrollToContent(topContent)}>
                   Home
                 </a>
               </li>
               <li>
-                <a className={isNavMenuActive(aboutContent) || isNavMenuActive(experienceContent) ? styles.active : ''}
+                <a className={isAboutActive || isNavMenuActive(experienceContent) ? styles.active : ''}
                   onClick={() => scrollToContent(aboutContent)}>
                   About
                 </a>
               </li>
               <li>
-                <a className={isNavMenuActive(projectsContent) ? styles.active : ''}
+                <a className={isProjectsActive ? styles.active : ''}
                   onClick={() => scrollToContent(projectsContent)}>
                   Creations
                 </a>
               </li>
               <li>
-                <a className={isNavMenuActive(contactContent) ? styles.active : ''}
+                <a className={isContactActive ? styles.active : ''}
                   onClick={() => scrollToContent(contactContent)}>
                   Contact
                 </a>

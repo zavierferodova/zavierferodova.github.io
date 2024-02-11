@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/static/css/main.3552618f.css",
-    "main.js": "/static/js/main.f42e4154.js",
+    "main.js": "/static/js/main.c9e7afaa.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/books.png": "/static/media/books.8cc0c34c29f61e8e44ee.png",
     "static/media/hero.png": "/static/media/hero.0d8ccdcd2c90f7ea2862.png",
-    "static/media/mikomik-app.webp": "/static/media/mikomik-app.9454affccc9da88632ad.webp",
-    "static/media/batik-tiga-dara-site.webp": "/static/media/batik-tiga-dara-site.784e166f5bb9f0e73a7c.webp",
-    "static/media/cinema-catalogue-app.webp": "/static/media/cinema-catalogue-app.4721c66bd6fc6b97ede2.webp",
-    "static/media/lets-bus-site.webp": "/static/media/lets-bus-site.3d40e8ed656d857199ad.webp",
-    "static/media/mbas-jajan-site.webp": "/static/media/mbas-jajan-site.d5170dd4c420f32686af.webp",
-    "static/media/corona-statistics-site.webp": "/static/media/corona-statistics-site.6b32b47a652a7856a19e.webp",
-    "static/media/what-sender-site.webp": "/static/media/what-sender-site.f08f63f28ea9fcefdb7a.webp",
-    "static/media/digital-quran.webp": "/static/media/digital-quran.388cbc470dceb82111c5.webp",
+    "static/media/lets-bus-site.webp": "/static/media/lets-bus-site.ade3a6c516e5c4110d2b.webp",
+    "static/media/cinema-catalogue-app.webp": "/static/media/cinema-catalogue-app.b7ea4105a90838db2469.webp",
+    "static/media/batik-tiga-dara-site.webp": "/static/media/batik-tiga-dara-site.56d93484037449d73540.webp",
+    "static/media/what-sender-site.webp": "/static/media/what-sender-site.69afb767065738ca13c5.webp",
+    "static/media/mbas-jajan-site.webp": "/static/media/mbas-jajan-site.33cbc14e9005c3e838c7.webp",
+    "static/media/digital-quran.webp": "/static/media/digital-quran.5f67e0980e1c79e17d3b.webp",
+    "static/media/mim-surodadi-site.webp": "/static/media/mim-surodadi-site.1b34b18329e4201f2a31.webp",
+    "static/media/corona-statistics-site.webp": "/static/media/corona-statistics-site.3fda01a2685b1b0946e5.webp",
     "index.html": "/index.html",
     "main.3552618f.css.map": "/static/css/main.3552618f.css.map",
-    "main.f42e4154.js.map": "/static/js/main.f42e4154.js.map",
+    "main.c9e7afaa.js.map": "/static/js/main.c9e7afaa.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3552618f.css",
-    "static/js/main.f42e4154.js"
+    "static/js/main.c9e7afaa.js"
   ]
 }

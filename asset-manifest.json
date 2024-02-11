@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3552618f.css",
-    "main.js": "/static/js/main.c9e7afaa.js",
+    "main.css": "/static/css/main.f76faa96.css",
+    "main.js": "/static/js/main.62f8e788.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/books.png": "/static/media/books.8cc0c34c29f61e8e44ee.png",
     "static/media/hero.png": "/static/media/hero.0d8ccdcd2c90f7ea2862.png",
@@ -14,12 +14,12 @@
     "static/media/mim-surodadi-site.webp": "/static/media/mim-surodadi-site.1b34b18329e4201f2a31.webp",
     "static/media/corona-statistics-site.webp": "/static/media/corona-statistics-site.3fda01a2685b1b0946e5.webp",
     "index.html": "/index.html",
-    "main.3552618f.css.map": "/static/css/main.3552618f.css.map",
-    "main.c9e7afaa.js.map": "/static/js/main.c9e7afaa.js.map",
+    "main.f76faa96.css.map": "/static/css/main.f76faa96.css.map",
+    "main.62f8e788.js.map": "/static/js/main.62f8e788.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3552618f.css",
-    "static/js/main.c9e7afaa.js"
+    "static/css/main.f76faa96.css",
+    "static/js/main.62f8e788.js"
   ]
 }

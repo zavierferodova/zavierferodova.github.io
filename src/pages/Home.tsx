@@ -6,7 +6,7 @@ import coronaStatisticsImg from '../images/corona-statistics-site.webp'
 import mbasJajanImg from '../images/mbas-jajan-site.webp'
 import whatSenderImg from '../images/what-sender-site.webp'
 import cinemaCatalogueAppImg from '../images/cinema-catalogue-app.webp'
-import mikomikAppImg from '../images/mikomik-app.webp'
+import mimSurodadiSiteImg from '../images/mim-surodadi-site.webp'
 import letsBusSiteImg from '../images/lets-bus-site.webp'
 import batikTigaDaraSiteImg from '../images/batik-tiga-dara-site.webp'
 import styles from './Home.module.css'
@@ -70,7 +70,7 @@ function App () {
               <li>
                 <a className={isNavMenuActive(projectsContent) ? styles.active : ''}
                   onClick={() => scrollToContent(projectsContent)}>
-                  Projects
+                  Creations
                 </a>
               </li>
               <li>
@@ -101,7 +101,7 @@ function App () {
                 <span className={styles.dev_name}>Zavier Ferodova</span>
               </div>
               <div className={`${styles.bottom} text-[0.9rem] lg:text-[0.95rem] mt-6`}>
-                A boy with experience in software development, I love to make something that useful for everyone.
+                A boy experienced in software development, I love to make something that useful for everyone.
               </div>
               <div className={`${styles.btn_more_container} mt-6`}>
                 <button className={styles.btn_more} onClick={() => scrollToContent(aboutContent)}>
@@ -127,7 +127,7 @@ function App () {
               <span>About Me</span>
             </div>
             <div className={`${styles.short_desc} mt-8 text-[0.9rem] lg:text-[0.95rem] md:w-3/4`}>
-              Currently, I am an Informatics college student from Surakarta, Indonesia. I continued my studies from Vocational High School with Software Engineering study program to college cause I wanted to reach one of my dreams getting expert on part of Information Technology.
+              Currently I am an Informatics college student from Surakarta City, Indonesia. I continued my studies from Vocational High School with Software Engineering Field to college cause I want to reach one of my dreams getting expert on part of information technology.
             </div>
           </div>
           <div className={`${styles.books_img_container} flex justify-end md:pt-4`}>
@@ -143,10 +143,10 @@ function App () {
               <div className={styles.head_section}>
                 <div className={`${styles.heading} text-3xl leading-[2.5rem] font-semibold lg:text-4xl lg:leading-[3rem]`}>
                   <span>Skills &amp;</span><br/>
-                  <span>Experience</span>
+                  <span>Experiences</span>
                 </div>
                 <div className={`${styles.short_text} md:w-[60%] mt-4 text-[0.9rem] lg:text-[0.95rem]`}>
-                  A specialist in full stack web development, building modern responsive sites.
+                  A specialist in web and mobile development, building modern responsive applications.
                 </div>
               </div>
               <div className={`${styles.skills_section} mt-16`}>
@@ -154,18 +154,18 @@ function App () {
                 <div className={`${styles.skills_set} mt-6 grid grid-cols-2`}>
                   <div className={styles.skill_item}>
                     <div className={`${styles.icon} p-3 text-3xl md:p-4 md:text-4xl`}>
-                      <Icon icon="mdi:api"/>
-                    </div>
-                    <div className={`${styles.text} w-[80%] text-sm md:text-base`}>
-                      REST API Development
-                    </div>
-                  </div>
-                  <div className={styles.skill_item}>
-                    <div className={`${styles.icon} p-3 text-3xl md:p-4 md:text-4xl`}>
                       <Icon icon="mdi:responsive"/>
                     </div>
                     <div className={`${styles.text} w-[80%] text-sm md:text-base`}>
                       Progressive Web Apps
+                    </div>
+                  </div>
+                  <div className={styles.skill_item}>
+                    <div className={`${styles.icon} p-3 text-3xl md:p-4 md:text-4xl`}>
+                      <Icon icon="mdi:api"/>
+                    </div>
+                    <div className={`${styles.text} w-[80%] text-sm md:text-base`}>
+                      REST API Development
                     </div>
                   </div>
                   <div className={styles.skill_item}>
@@ -208,7 +208,7 @@ function App () {
           </div>
           <div className={`${styles.experience_section} mt-8 md:mt-0`}>
             <div className={`${styles.heading} font-semibold text-[1.8rem] mb-8`}>
-              Experience
+              Experiences
             </div>
             <div className={`${styles.experience_set}`}>
               <div className={`${styles.experience_card} mb-4`}>
@@ -216,17 +216,17 @@ function App () {
                   <div className={`${styles.date} text-xs md:text-sm mt-2`}>Nov 2021 - Present</div>
                 </div>
                 <div className="ml-4 w-[70%]">
-                  <div className={`${styles.role} text-base md:text-xl font-semibold`}>Web Developer Freelance</div>
-                  <div className={`${styles.company} text-xs md:text-sm mt-2`}>Self Employed</div>
+                  <div className={`${styles.role} text-base md:text-xl font-semibold`}>Software Engineer Freelance</div>
+                  <div className={`${styles.company} text-xs md:text-sm mt-2`}>Zavelin Tech Solutions</div>
                 </div>
               </div>
               <div className={`${styles.experience_card} mb-4`}>
                 <div className="w-[30%] flex-shrink-0">
-                  <div className={`${styles.date} text-xs md:text-sm mt-2`}>Dec 2020 - Jan 2021</div>
+                  <div className={`${styles.date} text-xs md:text-sm mt-2`}>Aug 2023 - Jan 2024</div>
                 </div>
                 <div className="ml-4 w-[70%]">
-                  <div className={`${styles.role} text-base md:text-xl font-semibold`}>Menjadi Front End Web Developer Expert</div>
-                  <div className={`${styles.company} text-xs md:text-sm mt-2`}>Dicoding Indonesia</div>
+                  <div className={`${styles.role} text-base md:text-xl font-semibold`}>Machine Learning Cohort</div>
+                  <div className={`${styles.company} text-xs md:text-sm mt-2`}>Bangkit Academy</div>
                 </div>
               </div>
               <div className={`${styles.experience_card} mb-4`}>
@@ -264,8 +264,8 @@ function App () {
       <div className={styles.content_container}>
         <div ref={projectsContent} className={`${styles.projects_content} mt-12 lg:mt-24 mx-8`}>
           <div className="flex flex-col items-center mb-12">
-            <div className={`${styles.heading} text-3xl lg:text-4xl font-semibold`}>My Projects</div>
-            <div className={`${styles.short_text} mt-4 text-center text-[0.9rem] lg:text-[0.95rem]`}>More than three years experience in software development</div>
+            <div className={`${styles.heading} text-3xl lg:text-4xl font-semibold`}>My Creations</div>
+            <div className={`${styles.short_text} mt-4 text-center text-[0.9rem] lg:text-[0.95rem]`}>See wonderful development stuff below</div>
           </div>
           <div className={styles.projects_set}>
             <div className="flex flex-col md:flex-row gap-6 md:gap-8 mb-6 md:mb-8">
@@ -287,10 +287,10 @@ function App () {
               </div>
               <div className={styles.project_item}>
                 <div className="bg-gray-200 rounded-lg md:rounded-2xl overflow-hidden h-[85%]">
-                  <img src={letsBusSiteImg}/>
+                  <img src={mimSurodadiSiteImg}/>
                 </div>
                 <div className={`${styles.project_name} text-base md:text-xl font-medium mt-2`}>
-                  Let&apos;s Bus
+                  MI Muhammadiyah Surodadi 1
                 </div>
               </div>
             </div>
@@ -331,10 +331,10 @@ function App () {
               </div>
               <div className={styles.project_item}>
                 <div className="bg-gray-200 rounded-lg md:rounded-2xl overflow-hidden h-[85%]">
-                  <img src={mikomikAppImg}/>
+                  <img src={letsBusSiteImg}/>
                 </div>
                 <div className={`${styles.project_name} text-base md:text-xl font-medium mt-2`}>
-                  Mikomik
+                  Let&apos;s Bus
                 </div>
               </div>
             </div>
@@ -384,7 +384,7 @@ function App () {
               </div>
             </div>
             <div className={`${styles.divider} mt-6 w-full md:w-[80%]`}></div>
-            <div className="mt-2 text-sm md:text-base">&copy; Designed by Zavier Ferodova Al Fitroh 2022</div>
+            <div className="mt-2 text-sm md:text-base">&copy; Designed by Zavier Ferodova Al Fitroh 2024</div>
           </div>
         </div>
         <div className={`${styles.circle_img} w-[14rem] h-[14rem] md:w-[18rem] md:h-[18rem] absolute right-0 bottom-0 transform translate-x-[6rem] translate-y-[7rem]`}></div>
